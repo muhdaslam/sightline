@@ -1,0 +1,30 @@
+# --- Secrets / config ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# --- Tooling caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Data / models (large, regenerable) ---
+data/
+models/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
