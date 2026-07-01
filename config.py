@@ -5,5 +5,6 @@ class Settings(BaseSettings):
 
     openai_api_key: str
     sec_edgar_user_agent: str
+    database_url: str
 
 settings = Settings()
