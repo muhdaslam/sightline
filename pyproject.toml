@@ -1,0 +1,6 @@
+[project]
+name = "sightline"
+version = "0.1.0"
+description = "Multimodal agentic equity-research analyst"
+requires-python = ">=3.11"
+dependencies = []
